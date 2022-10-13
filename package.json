@@ -5,7 +5,8 @@
   "types": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node index.ts",
+    "dev": "yarn prepare; js-master --help",
+    "dev:t": "yarn prepare; js-master --t",
     "build": "tsc",
     "prepare": "npm run build"
   },
@@ -21,7 +22,9 @@
     "lib"
   ],
   "description": "js-master",
-  "dependencies": {},
+  "dependencies": {
+    "yargs": "^17.6.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phamtanminhtien/js-master.git"
