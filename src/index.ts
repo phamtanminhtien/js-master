@@ -32,8 +32,6 @@ const canvasGenerator = () => {
 
 const list = [
   { template: "canvas", name: "Canvas", generator: canvasGenerator },
-  { template: "canvas", name: "Canvas" },
-  { template: "canvas", name: "Canvas" },
 ];
 
 if (yargs.argv.ls == true || yargs.argv.list == true) {
