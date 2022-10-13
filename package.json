@@ -13,7 +13,8 @@
   "devDependencies": {
     "@types/node": "^18.8.4",
     "ts-node": "^10.9.1",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "js-master": "^2.1.1"
   },
   "bin": {
     "js-master": "lib/index.js"

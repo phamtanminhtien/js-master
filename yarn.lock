@@ -130,6 +130,13 @@ is-fullwidth-code-point@^3.0.0:
   resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
   integrity sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==
 
+js-master@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/js-master/-/js-master-2.1.1.tgz#f39167ecaa76f5478fb894b99f7ca99bc4a9b97e"
+  integrity sha512-dBNG9WVWoXpCrPfmD1X+iS9OqgE479ncfgIE9pymGld506CkznOtu/UaKCGfUH3O7FJ4ifYUpzktGg+bLYkbsg==
+  dependencies:
+    yargs "^17.6.0"
+
 make-error@^1.1.1:
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
